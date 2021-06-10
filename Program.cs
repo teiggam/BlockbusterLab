@@ -9,7 +9,7 @@ namespace Blockbuster_Lab
         {
 
             Console.WriteLine($"Welcome to Digital Blockbuster!");
-            Console.WriteLine("We currently have the following movies:");
+            Console.WriteLine("We currently have the following movies:\n");
             Blockbuster bb = new Blockbuster();
 
             bool repeat;

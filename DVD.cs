@@ -15,8 +15,7 @@ namespace Blockbuster_Lab
             bool again;
             do
             {
-                Console.WriteLine($"What scene would you like to watch?");
-                PrintScenes();
+                Console.WriteLine($"What scene would you like to watch: 0 to {Scenes.Count - 1}");
                 try
                 {
                     int sceneSelected = int.Parse(Console.ReadLine());
