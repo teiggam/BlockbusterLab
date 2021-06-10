@@ -33,7 +33,7 @@ namespace Blockbuster_Lab
         {
             for (int sc = 0; sc < Scenes.Count; sc++)
             {
-                Console.WriteLine(sc);
+                Console.WriteLine($"{sc}: {Scenes[sc]}");
             }
 
         }

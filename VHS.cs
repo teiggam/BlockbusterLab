@@ -16,6 +16,12 @@ namespace Blockbuster_Lab
             string scene = Scenes[CurrentTime];
             Console.WriteLine(scene);
             CurrentTime++;
+            for (int sc = 0; sc < Scenes.Count; sc++)
+                if (CurrentTime == Scenes.Count)
+                {
+                    Console.WriteLine("That is the end of the movie.  Be kind, rewind.\n");
+                    Rewind();
+                }
         }
         public void Rewind()
         {
